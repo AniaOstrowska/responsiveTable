@@ -42,7 +42,7 @@ h2{
 
 .fl-table td, .fl-table th {
     text-align: center;
-    padding: 8px;
+    padding: 18px;
 }
 
 .fl-table td {
@@ -67,15 +67,16 @@ h2{
 .fl-table tr:hover {
     background-color: aquamarine;
 }
+
 /* Responsive */
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .fl-table {
         display: block;
         width: 100%;
     }
     .table-wrapper:before{
-        content: "Scroll horizontally";
+        content: 'Scroll horizontally';
         display: block;
         text-align: right;
         font-size: 11px;
